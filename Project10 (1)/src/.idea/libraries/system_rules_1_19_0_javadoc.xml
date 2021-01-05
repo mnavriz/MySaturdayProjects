@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="system-rules-1.19.0-javadoc">
+    <CLASSES />
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../../TEST/system-rules-1.19.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>

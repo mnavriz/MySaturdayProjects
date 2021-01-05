@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Application Form</title>
+    <style>
+        body{
+        background:lightyellow;
+        }
+        h2{
+        background:lightgreen;
+        }
+        button{
+        background:green;
+        }
+
+        #hr1{
+        border: 3px solid lightgreen;
+        }
+        #hr2{
+        border: 2px solid lightgreen;
+        }
+        #hr3{
+        border: 1px solid lightgreen;
+        }
+        #emailDocuments{
+        color: blue;
+        center;
+        }
+        #submit {
+        background:lightgreen;
+
+        }
+
+    </style>
+</head>
+<body>
+<center><img src="techno_study_logo.png" width=" 150px"></center>
+<h2  align="center">Application Form</h2>
+<hr id="hr1">
+<hr id="hr2" width="75%">
+<hr id="hr3" width="50%">
+
+< action="ThirdPage.html">
+
+<label>First Name:</label>&nbsp <input name=" First Name"> &nbsp &nbsp &nbsp &nbsp
+<label>Last Name:</label>&nbsp <input name=" Last Name">
+
+<br>
+<br>
+    <label>
+Address 1:&nbsp <input name=" Address 1" placeholder="Street name and number">&nbsp &nbsp &nbsp &nbsp
+Address 2:&nbsp <input name=" Address 2" placeholder="Apt no if applies">
+    </label>
+<br>
+<br>
+
+        <label>City: </label>&nbsp <input name="City">&nbsp &nbsp &nbsp &nbsp
+            <label>Zip Code: </label>&nbsp <input name="Zip Code">&nbsp &nbsp &nbsp &nbsp
+                <label>State: </label>&nbsp <input name="State">
+
+<br>
+<br>
+    <label>
+        <label>Date of Birth: </label>&nbsp  <input type="date">&nbsp &nbsp &nbsp &nbsp
+        <label>Phone:</label>&nbsp  <input name="Phone">&nbsp &nbsp &nbsp &nbsp
+        <label>Email:</label>&nbsp  <input name="Email">
+    </label>
+    <br>
+    <br>
+    <label>
+Gender:
+    <input type="radio" name="Gender">Male
+    <input type="radio" name="Gender">Female
+    <input type="radio" name="Gender">Prefer no to say
+
+    </label>
+    <br>
+    <br>
+
+Briefly tell about your self:
+<br>
+    <label>
+    <textarea type="text-area" name="text-area" placeholder="Max 100 character" rows="4" cols="100"></textarea>
+    <br>
+    <br>
+    Which branch do you apply for?<br>
+    Please select only one state:<br>
+    <select name="state" id="state">
+        <option value="Georgia">Georgia</option>
+        <option value="New Jersey">New Jersey</option>
+        <option value="New York">New York</option>
+        <option value="Ohio">Ohio</option>
+        <option value="Texas">Texas</option>
+    </select>
+    <br>
+    <br>
+    <input type="checkbox" id="1" value="I am willing to relocate">I am willing to relocate<br>
+    <input type="checkbox" id="2" value="I am over 18 years old">I am over 18 years old<br>
+    <input type="checkbox" id="3" value="I have work authorization for the US">I have work authorization for the US<br>
+    <input type="checkbox" id="4" value="I am a protected veteran">I am a protected veteran<br>
+    <input type="checkbox" id="5" value="I consider myself as a disabled person">I consider myself as a disabled person
+    <br>
+    <br>
+    <input type="checkbox" id="6" value="I have read the terms and conditions of Techno Study accept tem  all"><b>I have read the terms and conditions of Techno Study accept tem  all</b>
+    <br>
+    <br>
+    </label>
+  <center>
+      <a id="emailDocuments" href="mailto:hr@techno.study"><b>Emil us your resume and related documents.</b></a>
+  </center>
+
+    <a href="ThirdPage.html" target="_blank">
+    <h1><center id="submit"><button type="button">SUBMIT</button></center></h1>
+    </a>
+</form action="ThirdPage.html" target="_blank">
+
+
+</body>
+</html>
